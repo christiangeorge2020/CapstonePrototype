@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{7B90696A-2BC2-4B2C-A0EC-CE4E4C328CDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin Kernel">
+      <UniqueIdentifier>{AC5E57E0-3745-405F-9F6B-F3B6AE09CCC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vstgui4">
+      <UniqueIdentifier>{6F55E201-3E8F-450E-B890-38DFD0D59B05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomControls">
+      <UniqueIdentifier>{1EB4DBA1-2DD6-4D1F-8CD6-CB4485B261A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAFX2 Source">
+      <UniqueIdentifier>{40D8D138-3FDA-49EF-9572-FCD351C3A093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin Kernel\Plugin GUI">
+      <UniqueIdentifier>{C482BB44-7A4D-4EC4-9A2E-E634B2A007FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin Kernel\Plugin Core">
+      <UniqueIdentifier>{269AA582-9406-463C-A9AD-DAF1B37E7AF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PluginObjects">
+      <UniqueIdentifier>{862AD33C-AA29-4279-AD38-FDD78D0880CA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\RAFX2 Source\RackAFXDLL.cpp">
+      <Filter>RAFX2 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RAFX2 Source\Rafx2Plugin.cpp">
+      <Filter>RAFX2 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vstgui4\vstgui\vstgui_uidescription_win32.cpp">
+      <Filter>vstgui4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vstgui4\vstgui\vstgui_win32.cpp">
+      <Filter>vstgui4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CustomControls\customviews.cpp">
+      <Filter>CustomControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RAFX2 Source\Rafx2PluginBase.cpp">
+      <Filter>RAFX2 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CustomControls\customcontrols.cpp">
+      <Filter>CustomControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginKernel\plugincore.cpp">
+      <Filter>Plugin Kernel\Plugin Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginKernel\pluginbase.cpp">
+      <Filter>Plugin Kernel\Plugin Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginKernel\plugingui.cpp">
+      <Filter>Plugin Kernel\Plugin GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginKernel\pluginparameter.cpp">
+      <Filter>Plugin Kernel\Plugin Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginObjects\fxobjects.cpp">
+      <Filter>PluginObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginObjects\SoundTouch.cpp">
+      <Filter>PluginObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginObjects\RateTransposer.cpp">
+      <Filter>PluginObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginObjects\TDStretch.cpp">
+      <Filter>PluginObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginObjects\AAFilter.cpp">
+      <Filter>PluginObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginObjects\FIFOSampleBuffer.cpp">
+      <Filter>PluginObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginObjects\FIRFilter.cpp">
+      <Filter>PluginObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginObjects\InterpolateCubic.cpp">
+      <Filter>PluginObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginObjects\InterpolateLinear.cpp">
+      <Filter>PluginObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginObjects\InterpolateShannon.cpp">
+      <Filter>PluginObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginObjects\mmx_optimized.cpp">
+      <Filter>PluginObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginObjects\BPMDetect.cpp">
+      <Filter>PluginObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginObjects\PeakFinder.cpp">
+      <Filter>PluginObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\RAFX2 Source\RackAFXDLL.h">
+      <Filter>RAFX2 Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RAFX2 Source\Rafx2Plugin.h">
+      <Filter>RAFX2 Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CustomControls\customviews.h">
+      <Filter>CustomControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RAFX2 Source\Rafx2PluginBase.h">
+      <Filter>RAFX2 Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CustomControls\customcontrols.h">
+      <Filter>CustomControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginKernel\pluginbase.h">
+      <Filter>Plugin Kernel\Plugin Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginKernel\plugincore.h">
+      <Filter>Plugin Kernel\Plugin Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginKernel\guiconstants.h">
+      <Filter>Plugin Kernel\Plugin GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginKernel\plugindescription.h">
+      <Filter>Plugin Kernel\Plugin Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginKernel\plugingui.h">
+      <Filter>Plugin Kernel\Plugin GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginKernel\pluginstructures.h">
+      <Filter>Plugin Kernel\Plugin Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginKernel\pluginparameter.h">
+      <Filter>Plugin Kernel\Plugin Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\fxobjects.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\filters.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CustomControls\atomicops.h">
+      <Filter>CustomControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CustomControls\readerwriterqueue.h">
+      <Filter>CustomControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\RateTransposer.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\TDStretch.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\SoundTouch.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\FIFOSamplePipe.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\STTypes.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\AAFilter.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\FIFOSampleBuffer.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\FIRFilter.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\InterpolateCubic.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\InterpolateLinear.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\InterpolateShannon.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\BPMDetect.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginObjects\PeakFinder.h">
+      <Filter>PluginObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\PluginGUI.uidesc">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PluginGUIMain.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
